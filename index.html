@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menú Las Picudas</title>
+  <!-- Enlace a los estilos de Bootstrap (asegúrate de tener una conexión a Internet para cargar los estilos) -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Estilos personalizados */
+    body {
+      background-color: #000000;
+    }
+    .header {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: white;
+    }
+    .menu-img {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    @media (max-width: 768px) {
+      /* Estilos para dispositivos móviles */
+      .menu-img {
+        content: url('menu-movil.jpg');
+      }
+    }
+    @media (min-width: 769px) {
+      /* Estilos para ordenadores de escritorio */
+      .menu-img {
+        content: url('menu-movil.jpg');
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Las Picudas Menú</h1>
+  </div>
+  <div class="container">
+    <img class="menu-img" src="menuEscritorio.jpg"  alt="Menú Las Picudas">
+  </div>
+<footer>
+    <p class="text-warning m-2 text-center">No olivides dejarnos tu reseña en <a href="https://goo.gl/maps/quQuZW8NHpc34MiC7" target="_blank" >Google </a></p>
+</footer>
+  <!-- Scripts de Bootstrap (asegúrate de tener una conexión a Internet para cargar los scripts) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
